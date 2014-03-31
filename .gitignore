@@ -213,3 +213,21 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+*.blend
+*.blend.meta
+*.blend1
+*.mat*
+*.unity
+*.wav
+*.mp3
+*.wma
+*.csproj
+*.unityproj
+*.m
+*.fbx
+*.blend2
+*.prefab
+*.exe
+*.unity3d

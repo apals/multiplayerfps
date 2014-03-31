@@ -1,0 +1,28 @@
+﻿Likelihood
+Om vi har utfallen x1,..,xn från parametervärden K så är likelihood samma sak som att 
+L(K|x) = P(x|K)
+
+t.ex. om vi får krona när vi singlar slant 10 ggr, vad är då the likelihood att 
+myntet är fair?
+
+tvärtom mot sannolikhet, vi har utfall istället för sannolikhet att en viss händelse
+inträffar
+
+Log-likelihood
+Logaritmering av likelihood-funktionen. lättare att arbeta med och derivera etcetera.
+
+
+
+
+Minsta-kvadrat
+Minstakvadratmetoden (även minsta-kvadrat-metoden eller minsta kvadrat-metoden) används vid regressionsanalys för att minimera felet i en funktion som ska anpassas utifrån observerade värden.
+
+Maximum-likelihood
+ML-metoden, är en objektiv metod inom statistiken för att hitta skattningar för parametrar i en sannolikhetsfördelning som beskriver en samling data. Metoden skattar parametern genom att välja det värde på parametern som maximerar sannolikheten av de observerade värdena.
+
+
+Bootstrap
+Med återläggning drar vi på måfå n st för att få ett första fiktivt stickprov. 
+Ur detta nya stickprov beräknar vi skattningen (theta)_{1,obs} av theta.
+Detta upprepas nu B gånger och ur dessa B fiktiva stickprov får vi B skattningar.
+Ur dessa kan vi få en medelfelsskattning genom att beräkna spridningen av dessa. 
